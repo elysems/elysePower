@@ -1,0 +1,621 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=caabbd26-913c-4c3e-9bf5-86fbef738226");
+/*
+Theme Name: elysePower Theme
+Theme URI: http://elysepower.com
+Author: Elyse Power
+Author URI: http://elysepower.com
+Description: A theme created for a personal website.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+@font-face {
+  font-family: "P22UndergroundW01-Light";
+  src: url("fonts/79969bce-8d8b-4d00-af4f-a83be0b2c42f.eot?#iefix");
+  src: url("fonts/79969bce-8d8b-4d00-af4f-a83be0b2c42f.eot?#iefix") format("eot"), url("fonts/97729058-029d-4e7a-b4bc-bf86fb5070ce.woff") format("woff"), url("fonts/a9b39fee-35c5-4c0b-a139-934527561f98.ttf") format("truetype"), url("fonts/d0a5d81d-ec31-4aea-ae6f-9e1ccce8d3e7.svg#d0a5d81d-ec31-4aea-ae6f-9e1ccce8d3e7") format("svg");
+}
+
+@font-face {
+  font-family: "Didot W02 Roman";
+  src: url("fonts/44c137d9-c4c5-4ec7-99c6-b288854a5a4c.eot?#iefix");
+  src: url("fonts/44c137d9-c4c5-4ec7-99c6-b288854a5a4c.eot?#iefix") format("eot"), url("fonts/3ced57ea-930a-4a35-b65b-2a1e482858f0.woff") format("woff"), url("fonts/dfee02f2-2061-49e4-86f1-c7d9cf822527.ttf") format("truetype"), url("fonts/41fb3b38-51d1-4fc4-8be8-fcf207ade3c4.svg#41fb3b38-51d1-4fc4-8be8-fcf207ade3c4") format("svg");
+}
+
+@font-face {
+  font-family: "P22UndergroundW01-Mediu";
+  src: url("fonts/4ff8f706-5eae-4918-b587-a36a45743d41.eot?#iefix");
+  src: url("fonts/4ff8f706-5eae-4918-b587-a36a45743d41.eot?#iefix") format("eot"), url("fonts/bb1d9312-de93-4275-96d3-09f4597f43d3.woff") format("woff"), url("fonts/866b2ebf-fb0a-4a46-8e3f-b15e9875d117.ttf") format("truetype"), url("fonts/5ef5c055-0e7c-44d3-b5cf-6f6e8da20876.svg#5ef5c055-0e7c-44d3-b5cf-6f6e8da20876") format("svg");
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden], template {
+  display: none;
+}
+
+a {
+  background: 0 0;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: 700;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* html .clearfix {
+  zoom: 1;
+}
+
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1;
+}
+
+/* IE7 */
+html {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  max-width: 750px;
+  width: 60%;
+  margin: auto;
+}
+
+h1.logo {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Didot W02 Roman";
+  font-size: 5.5rem;
+  letter-spacing: 0.0025rem;
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  margin: 9% 0;
+}
+
+h2 {
+  font-family: "P22UndergroundW01-Mediu";
+  text-transform: uppercase;
+  font-size: 2.1rem;
+  margin: 5% 0;
+  font-weight: normal;
+  letter-spacing: 0.05rem;
+}
+
+p {
+  font-family: "P22UndergroundW01-Light";
+  font-size: 2rem;
+}
+p.mainCopy {
+  text-align: justify;
+  line-height: 2.85rem;
+}
+p.skills {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+a:hover {
+  color: #dfc4c4;
+}
+
+img.logo {
+  width: 50%;
+  height: auto;
+  margin-left: 11%;
+}
+
+ul#menu-primary {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 0;
+}
+ul#menu-primary li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+ul#menu-primary a {
+  padding: 10px;
+  text-decoration: none;
+  font-family: "P22UndergroundW01-Mediu";
+}
+ul#menu-primary a:hover {
+  color: #dfc4c4;
+}
+
+.current-menu-item a {
+  color: #dfc4c4;
+}
+
+a.workButton {
+  background: #dfc4c4;
+  padding: 7px;
+  font-size: 1.5rem;
+  font-family: "P22UndergroundW01-Mediu";
+  text-transform: uppercase;
+  border: 4px solid #dfc4c4;
+}
+a.workButton:hover {
+  background: white;
+}
+
+div.work {
+  width: 100%;
+  border-top: 1px solid #333333;
+  padding: 4% 0.5%;
+}
+
+.workItem {
+  float: left;
+  width: 55%;
+}
+
+div.image {
+  float: right;
+  width: 40%;
+}
+div.image img {
+  width: 100%;
+  height: auto;
+}
+
+p.skills {
+  font-size: 1.5rem;
+  font-family: "P22UndergroundW01-Mediu";
+  margin-top: 0;
+}
+
+p.workDescrip {
+  font-family: "P22UndergroundW01-Light";
+  font-size: 1.5rem;
+  padding-bottom: 2%;
+  line-height: 2rem;
+}
+
+.line {
+  border-bottom: 1px solid #333333;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+h1.recent {
+  color: #DFC4C4;
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+  -ms-transform-origin: 0 0;
+  -ms-transform: rotate(90deg);
+  -webkit-transform-origin: 0 0;
+  -webkit-transform: rotate(90deg);
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 10px;
+  position: fixed;
+  left: 37px;
+  top: 22%;
+  font-family: "P22UndergroundW01-Mediu";
+  border: 4px solid #DFC4C4;
+  width: initial;
+}
+
+p.longDescrip {
+  font-family: "P22UndergroundW01-Light";
+  font-size: 2rem;
+  text-align: justify;
+  line-spacing: 2.5rem;
+  line-height: 2.7rem;
+}
+
+a.single:hover {
+  color: #dfc4c4;
+}
+
+.imageSingle {
+  text-align: center;
+}
+
+.imageSingle img {
+  max-width: 100%;
+  height: auto;
+}
+
+.workItemFull {
+  text-align: center;
+}
+
+div.back {
+  text-align: center;
+  padding: 4%;
+}
+
+.backButton {
+  background: #dfc4c4;
+  padding: 7px;
+  font-size: 1.5rem;
+  font-family: "P22UndergroundW01-Mediu";
+  text-transform: uppercase;
+  border: 4px solid #dfc4c4;
+}
+.backButton:hover {
+  background: white;
+}
+
+p.caption {
+  margin: 2% 0 .5% 0;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+input[type="submit"] {
+  background: #dfc4c4;
+  border: 4px solid #dfc4c4;
+  width: 100%;
+  text-transform: uppercase;
+  padding: 8px;
+  font-size: 1.4rem;
+  font-family: "P22UndergroundW01-Mediu";
+}
+input[type="submit"]:hover {
+  background: white;
+  color: #dfc4c4;
+}
+
+input, textarea {
+  color: #333333;
+  padding: 10px;
+  border: 4px solid #B6B2B2;
+  width: 100%;
+}
+input:focus, textarea:focus {
+  outline: none;
+  border: 4px solid #dfc4c4;
+}
+
+input::-webkit-input-placeholder {
+  color: #B6B2B2;
+  text-transform: uppercase;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #B6B2B2;
+  text-transform: uppercase;
+}
+
+.greeting {
+  font-family: "P22UndergroundW01-Mediu";
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  margin: 10% 0 5% 0;
+}
+.footer p {
+  font-size: 1.2rem;
+  font-family: "Didot W02 Roman";
+  letter-spacing: .01rem;
+  display: inline;
+}
+.footer .twitter {
+  border: 0;
+  width: 2.5%;
+  vertical-align: bottom;
+  margin-left: 1%;
+}
+.footer .twitter:hover {
+  fill: #dfc4c4;
+}
+
+.letsTalk {
+  width: 100%;
+  text-align: right;
+}
+.letsTalk img {
+  border: 0;
+  width: 35%;
+  padding: 3% 0;
+}
+
+.leftSpace {
+  margin-left: 7px;
+}
+
+span.design {
+  margin-left: 2%;
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    width: 75%;
+  }
+}
+@media (max-width: 526px) {
+  .footer p {
+    display: block;
+    margin: 0;
+  }
+
+  .footer .twitter {
+    width: 3.5%;
+  }
+
+  img.logo {
+    width: 70%;
+  }
+
+  .work .image {
+    float: none;
+    margin: auto auto 10px auto;
+    width: 100%;
+  }
+
+  .workItem {
+    margin: auto auto 10px auto;
+    width: 100%;
+    text-align: justify;
+  }
+
+  .skills {
+    margin-top: 10px;
+  }
+
+  .workItem h2 {
+    text-align: left;
+  }
+
+  p.longDescrip, p.mainCopy {
+    font-size: 1.7rem;
+    line-height: 2.45rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h1.recent {
+    top: 16%;
+  }
+
+  .letsTalk img {
+    width: 50%;
+  }
+
+  div.back {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 399px) {
+  ul#menu-primary li {
+    display: block;
+    margin-top: 10px;
+  }
+
+  p.longDescrip, p.mainCopy {
+    text-align: left;
+  }
+
+  h1.recent {
+    top: 20%;
+    padding: 5px;
+    left: 28px;
+  }
+
+  input::-webkit-input-placeholder {
+    font-size: 1.6rem;
+  }
+
+  textarea::-webkit-input-placeholder {
+    font-size: 1.6rem;
+  }
+
+  .footer {
+    padding: 0;
+  }
+
+  .letsTalk img {
+    width: 70%;
+  }
+
+  img.logo {
+    width: 90%;
+  }
+
+  p.skills {
+    text-align: left;
+  }
+}
